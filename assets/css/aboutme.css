@@ -5,7 +5,7 @@
 body{
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	font-size: 1rem;
-	font-weight: 300;
+	font-weight: 100;
 	line-height: 1.65;
 	padding-top: 50px;
 	padding-left: 10px;
@@ -31,9 +31,9 @@ div {
 	padding-right: 50px;
 }
 
-h1,h2, p, ul, li{
-	margin-left: auto;
-	margin-right: auto;
+h1,h2, p{
+	margin-left: 200px;
+	margin-right: 200px;
 	text-align: center;
 	color: #DCDCDC;
 } 
@@ -48,10 +48,14 @@ body {
 
 /* Image */
 	.image img {
+		width: 20%;
+		height: auto;
 		border: 0;
 		border-radius: 4px;
 		display: block;
 		position: relative;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	#cherie {
