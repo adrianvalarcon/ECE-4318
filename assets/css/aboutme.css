@@ -77,8 +77,7 @@ body {
 
 /* Button */
 	.button {
-	 	background-color: transparent;
-		border:thick;
+	 	background-color: black;
 	  	color: #DCDCDC;
 		text-decoration: none;
 	  	padding: 15px 32px;

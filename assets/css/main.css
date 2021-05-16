@@ -101,7 +101,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		background: #000000;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -154,7 +154,7 @@ input, select, textarea {
 		}
 
 	body {
-		background-color: #ffffff;
+		background-color: #000000;
 		color: #000000;
 	}
 
@@ -4001,6 +4001,7 @@ input, select, textarea {
 		.banner.style3.image-position-right .image img {
 			-moz-object-position: right;
 			-webkit-object-position: right;
+
 			-ms-object-position: right;
 			object-position: right;
 		}
@@ -8259,6 +8260,7 @@ input, select, textarea {
 		background-color: inherit;
 		width: 100%;
 		overflow-x: hidden;
+		clear: both;
 	}
 
 		#wrapper > .invert {
