@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
 
 html, body, div, span, object,
-iframe, h1, h2, h3, p, blockquote,img,
+iframe, h1, h2, h3, p, blockquote,img, a,
 small, strike, strong, b, u, i, center, ol, ul, li,
 form, label, table,footer, header, section {
 	margin: 0;
