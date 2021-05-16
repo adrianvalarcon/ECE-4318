@@ -1,0 +1,67 @@
+/* CSS Document */
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
+
+/* Text */
+body{
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1.65;
+	}
+
+h1,h2, p, ul, li{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #DCDCDC;
+} 
+
+body {
+	background-color: #2E2E2E;
+}
+
+/* Image */
+	.image {
+		border: 0;
+		border-radius: 4px;
+		display: inline-block;
+		position: relative;
+	}
+
+		.image img {
+			display: block;
+			border-radius: 4px;
+		}
+
+	#portrait {
+		width: 50%;
+		height: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+/* Button */
+	.button {
+	 	background-color: #363C7D;
+		border: none;
+	  	color: #DCDCDC;
+		text-decoration: none;
+	  	padding: 15px 32px;
+		display: inline-block;
+		font-size: auto;
+		}
+
+/* Lists */
+ul {
+	list-style-type: none;
+}	
+
+.list {
+		text-align: center;
+	}
+
+/* Footer*/
+footer {
+	text-align: center;
+}
