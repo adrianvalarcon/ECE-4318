@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
 
 /* Text */
-body{
+body, footer{
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
 	font-size: 1.15rem;
 	font-weight: 400;
@@ -63,6 +63,8 @@ body {
 		position: relative;
 		margin-left: auto;
 		margin-right: auto;
+		padding-top: 25px;
+		padding-bottom: 25px;
 	}
 
 	#cherie {
@@ -75,8 +77,8 @@ body {
 
 /* Button */
 	.button {
-	 	background-color: #363C7D;
-		border: none;
+	 	background-color: transparent;
+		border:thick;
 	  	color: #DCDCDC;
 		text-decoration: none;
 	  	padding: 15px 32px;
@@ -103,5 +105,8 @@ ul {
 
 /* Footer*/
 footer {
+	background-color: #292929;
 	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 100px;
 }
